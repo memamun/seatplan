@@ -13,38 +13,45 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-gray-200 flex justify-center items-center min-h-screen font-['Roboto']">
-    <div class="w-full max-w-md mx-auto px-4 py-8 bg-white shadow rounded-lg">
-      <h2 class="text-2xl font-bold text-center">SEAT PLAN</h2>
-      <h2 class="text-xl font-semibold mb-6 text-center">Senior Officer (Job ID: 10201)</h2>
-
-      <form
-        id="searchForm"
-        class="flex flex-col gap-4 bg-blue-100 rounded-lg p-6 mb-6"
-      >
-        <label for="serial_number" class="font-bold text-gray-700"
-          >Search Exam Center:</label
+  <body class="min-h-screen bg-gradient-to-br from-blue-100 via-white to-blue-200 font-['Roboto'] flex flex-col justify-between">
+    <main class="flex flex-1 justify-center items-center py-8">
+      <div class="w-full max-w-md mx-auto px-6 py-10 bg-white/90 shadow-2xl rounded-3xl border border-blue-100">
+        <div class="mb-8 text-center">
+          <div class="flex justify-center mb-2">
+            <svg class="w-12 h-12 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6l4 2"/></svg>
+          </div>
+          <h1 class="text-3xl font-extrabold text-blue-700 tracking-tight mb-1">SEAT PLAN</h1>
+          <p class="text-lg text-blue-900 font-medium">Senior Officer <span class="text-blue-400">(Job ID: 10201)</span></p>
+        </div>
+        <form
+          id="searchForm"
+          class="flex flex-col gap-5 bg-blue-50 rounded-xl p-6 mb-4 shadow"
         >
-        <input
-          type="text"
-          id="serial_number"
-          name="serial_number"
-          placeholder="Roll Number"
-          required
-          class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:border-blue-500 text-base"
-          inputmode="numeric"
-        />
-        <button
-          type="submit"
-          class="bg-blue-500 text-white font-bold py-3 px-4 rounded-lg transition duration-300 hover:bg-blue-700 text-base"
-        >
-          Submit
-        </button>
-      </form>
-
-      <div id="result"></div>
-    </div>
-
+          <label for="serial_number" class="font-semibold text-gray-700 text-base mb-1"
+            >Enter Your Roll Number</label
+          >
+          <input
+            type="text"
+            id="serial_number"
+            name="serial_number"
+            placeholder="e.g. 123456"
+            required
+            class="w-full px-4 py-3 border-2 border-blue-200 rounded-lg focus:outline-none focus:border-blue-500 text-base transition"
+            inputmode="numeric"
+          />
+          <button
+            type="submit"
+            class="w-full bg-gradient-to-r from-blue-500 to-blue-700 text-white font-bold py-3 rounded-lg shadow-lg hover:from-blue-600 hover:to-blue-800 transition text-lg tracking-wide"
+          >
+            🔍 Search
+          </button>
+        </form>
+        <div id="result"></div>
+      </div>
+    </main>
+    <footer class="text-center py-4 text-gray-500 text-sm bg-transparent">
+      &copy; {{ year or 2024 }} Seat Plan App. All rights reserved.
+    </footer>
     <script>
       document
         .getElementById("searchForm")
