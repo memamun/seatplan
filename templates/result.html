@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam Center Details</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-200 flex justify-center items-center min-h-screen">
+    <div class="container max-w-lg px-8 py-10 bg-white shadow rounded-lg">
+      <h2 class="text-2xl font-bold mb-6">Exam Center Details</h2>
+      <div id="result">
+        {% if error %}
+        <div class="error bg-red-100 rounded-lg p-4 mb-6">
+          <p class="font-bold text-red-700">{{ error }}</p>
+        </div>
+        {% else %}
+        <dl class="details flex flex-col gap-2">
+          <div class="flex">
+            <dt class="font-bold text-gray-700 mr-2">Serial Number:</dt>
+            <dd class="text-gray-900">{{ exam_center['Sl'] }}</dd>
+          </div>
+          <div class="flex">
+            <dt class="font-bold text-gray-700 mr-2">Name:</dt>
+            <dd class="text-gray-900">
+              {{ exam_center['Name of the Exam Centers'] }}
+            </dd>
+          </div>
+          <div class="flex">
+            <dt class="font-bold text-gray-700 mr-2">Address:</dt>
+            <dd class="text-gray-900">{{ exam_center['Address'] }}</dd>
+          </div>
+          <div class="flex">
+            <dt class="font-bold text-gray-700 mr-2">Capacity:</dt>
+            <dd class="text-gray-900">{{ exam_center['Capacity'] }}</dd>
+          </div>
+        </dl>
+        {% endif %}
+      </div>
+    </div>
+  </body>
+</html>
