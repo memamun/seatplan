@@ -33,13 +33,12 @@
           {% else %}
           <dl class="details flex flex-col gap-4 mb-4">
             <div class="flex flex-col sm:flex-row sm:items-center">
-              <dt class="font-bold text-gray-700 mr-2">Serial Number:</dt>
-              <dd class="text-gray-900">{{ exam_center['Sl'] }}</dd>
-            </div>
-            <div class="flex flex-col sm:flex-row sm:items-center">
               <dt class="font-bold text-gray-700 mr-2">Name:</dt>
               <dd class="text-gray-900">
-                {{ exam_center['Name of the Exam Centers'] }}
+                <a href="https://www.google.com/maps/search/{{ exam_center['Name of the Exam Centers'] | urlencode }}" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800 flex items-center gap-2">
+                  <img src="https://www.google.com/maps/vt/icon/name=assets/icons/poi/generic_pin.png" alt="Google Maps" class="h-5 w-5 inline" style="margin-bottom:2px;" />
+                  {{ exam_center['Name of the Exam Centers'] }}
+                </a>
               </dd>
             </div>
             <div class="flex flex-col sm:flex-row sm:items-center">
@@ -58,8 +57,5 @@
         </div>
       </div>
     </main>
-    <footer class="text-center py-4 text-gray-500 text-sm bg-transparent">
-      &copy; {{ year or 2024 }} Seat Plan App. All rights reserved.
-    </footer>
   </body>
 </html>
