@@ -29,7 +29,4 @@ def index():
                 return render_template('result.html', error="No exam center found for the given serial number.")
         except ValueError:
             return render_template('result.html', error="Please enter a valid serial number.")
-    return render_template('index.html')
-
-if __name__ == '__main__':
-    app.run(debug=True)
+    return render_template('index.html') 
