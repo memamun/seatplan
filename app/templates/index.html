@@ -13,16 +13,16 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-gray-200 flex justify-center items-center min-h-screen">
-    <div class="container max-w-lg px-8 py-10 bg-white shadow rounded-lg">
-      <h2 class="text-2xl font-bold" style="text-align: center";">SEAT PLAN</h2>
-      <h2 class="text-2xl font-bold mb-6" style="text-align: center">Senior Officer (Job ID: 10201)</h2>
+  <body class="bg-gray-200 flex justify-center items-center min-h-screen font-['Roboto']">
+    <div class="w-full max-w-md mx-auto px-4 py-8 bg-white shadow rounded-lg">
+      <h2 class="text-2xl font-bold text-center">SEAT PLAN</h2>
+      <h2 class="text-xl font-semibold mb-6 text-center">Senior Officer (Job ID: 10201)</h2>
 
       <form
         id="searchForm"
-        class="flex flex-col items-center bg-blue-100 rounded-lg p-6 mb-6"
+        class="flex flex-col gap-4 bg-blue-100 rounded-lg p-6 mb-6"
       >
-        <label for="serial_number" class="block font-bold text-gray-700 mb-1"
+        <label for="serial_number" class="font-bold text-gray-700"
           >Search Exam Center:</label
         >
         <input
@@ -31,11 +31,12 @@
           name="serial_number"
           placeholder="Roll Number"
           required
-          class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500 mb-4"
+          class="w-full px-4 py-3 border rounded-lg focus:outline-none focus:border-blue-500 text-base"
+          inputmode="numeric"
         />
         <button
           type="submit"
-          class="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg transition duration-300 hover:bg-blue-700"
+          class="bg-blue-500 text-white font-bold py-3 px-4 rounded-lg transition duration-300 hover:bg-blue-700 text-base"
         >
           Submit
         </button>
