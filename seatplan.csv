@@ -1,43 +1,43 @@
-Sl,Name of the Exam Centers,Address,From,To,Capacity
-1,Mohakhali Model High School,"Warless Gate, Mohakhali, Banani, Dhaka 1212",300002,303034,2200
-2,Satarkul School and College,"Badda, Dhaka 1212",303035,305886,2070
-3,Mirpur Bangla School And College (Boys' Section),"Sec-11, Pallabi, Dhaka-1216",305887,310640,3500
-4,Mirpur Bangla School And College (Girls' Section),"Sec-6, Pallabi, Dhaka-1216",310641,312963,1700
-5,Mirpur Girls' Ideal Laboratory Institute,"Mirpur-10, Dhaka-1216",312964,317819,3500
-6,Mirpur Girls' Ideal College,"Mirpur-10, Dhaka - 1216",317820,321984,3000
-7,Green field School & College,"Plot-3, BlockC-, Avenue-2, Mirpur-10, Dhaka 1216",321985,324703,2000
-8,Sher-E-Bangla Nagar Govt. Girls' High School,"Sher-E-Bangla Nagar, Dhaka-1207",324704,327999,2400
-9,Kadamtala Purba Basabo School & College,"28/3, Kadamtala, Basabo, Dhaka 1214",328000,332779,3400
-10,Sabujbagh Government College,"70/3, South Basabo, Sabujbagh, Dhaka 1214",332780,338737,4300
-11,Madertek Abdul Aziz School and College,"Bashabu, Sabujbagh, Dhaka 1214",338738,342574,2800
-12,Dolairpar High School,"7, West Dolairpar, Shyampur, Dhaka 1204",342577,345314,2000
-13,Faridabad High School,"15, Haricharan Ray Road, Faridabad Shyampur, Dhaka-1204",345315,349505,3000
-14,Jatrabari Ideal School & College,"Jatrabari, Dhaka 1232",349510,353649,3000
-15,Demra College,"Demra, Dhaka 1360",353650,357791,3000
-16,Bawany School & College,"Demra, Dhaka 1360",357792,363296,4000
-17,Ma Memorial Model Academy,"Tengra, Ward -68, DSCC, Post: Sarulia, Demra, Dhaka-1361",363297,366119,2000
-18,Hazi Moazzem Ali Adarsha High School,"Hazinagar, Sarulia, Demra, Dhaka 1361",366121,369828,2700
-19,Shekhdi Abdullah Mollah High School,"Shekhdi, Jatrabari, Dhaka-1362",369830,373342,2538
-20,Shamsul Hoque Khan School & College, School Campus,"Shantibagh, Paradogar, Matuail, Demra, Dhaka 1362",373343,384133,7800
-21,Shamsul Hoque Khan School & College, College Campus,"Badsha Mia Road, Paradogar, Demra, Dhaka 1362",384134,387057,2100
-22,Barnamala Adarsha School And College,"Dania, Jatrabari, Dhaka-1236",387058,391889,3500
-23,A. K. High School & College (Main Campus),"Dania, Dhaka-1236",391891,396275,3200
-24,A.K. School & College (New Campus),"Dania, Dhaka-1236",396278,398783,1800
-25,Dr. Mahbubur Rahman Mollah College,"Matuail, Jatrabari, Dhaka 1362",398784,410008,8000
-26,Dhaka Mohanagar Mohila College,"6 No. Subhash Bose Avenue, Laxmi Bazar, Sutrapur, Dhaka 1100",410009,414851,3500
-27,Ahmed Bawany Academy School & College,"Armanitola, Dhaka-1100",414854,420313,4000
-28,Armanitola Govt. High School,"1 No Abul Khayrath Road, Dhaka 1100",420314,424147,2800
-29,City Corporation Adarsha High School,"3/4 Dhalpur, Jatrabari, Dhaka-1203.",424148,427147,2150
-30,Central Women's College,"13/2, Abhay Das Lane, Tikatuli, Dhaka 1203",427150,430890,2700
-31,Kishori Lal Jubilee School & College,"39, North Brook Hall Road, Banglabazar, Dhaka-1100",430894,433603,2000
-32,Khilgaon Model College,"Block-C, 721/1, Khilgaon Chowrashta, Dhaka 1219",433606,438478,3500
-33,Khilgaon Govt. Colony School & College,"Plot # 560, 561, 562,923,924, Block # C, Khilgaon, Dhaka-1219",438479,441921,2500
-34,Kamalapur Sher-E-Bangla Railway School & College,"Kamalapur, Dhaka 1217",441922,444680,2000
-35,BTCL Ideal School,"Moghbazar, Dhaka 1217",444681,448018,2400
-36,Motijheel Colony High School,"Motijheel, Dhaka",448019,451470,2500
-37,Shantibag High School,"48, Shantibag, Dhaka 1217",451471,454570,2200
-38,Mohammadpur Girls' High School,"Noorjahan Road, Mohammadpur, Dhaka-1207",454572,457187,1900
-39,Dhanmondi Govt. Boys High School,"Dhaka 1207",457188,461298,3000
-40,Anwara Begum Muslim Girl's High School & College,"13 Nazimuddin Road, Dhaka 1100",461299,464759,2500
-41,Begum Rahima Adarsha Balika Uchcha Bidyalaya,"27/4-A, Topkhana Road, Segunbagicha, Dhaka-1000",464760,467527,2000
-42,University Laboratory School & College,"Dhaka University Campus",467529,469561,1500
+"Sl","Name of the Exam Centers","Address","From","To","Capacity"
+"1","Mohakhali Model High School","Warless Gate, Mohakhali, Banani, Dhaka 1212","300002","303034","2200"
+"2","Satarkul School and College","Badda, Dhaka 1212","303035","305886","2070"
+"3","Mirpur Bangla School And College (Boys’ Section)","Sec-11, Pallabi, Dhaka-1216","305887","310640","3500"
+"4","Mirpur Bangla School And College (Girls’ Section)","Sec-6, Pallabi, Dhaka-1216","310641","312963","1700"
+"5","Mirpur Girls' Ideal Laboratory Institute","Mirpur-10, Dhaka-1216","312964","317819","3500"
+"6","Mirpur Girls’ Ideal College","Mirpur - 10, Dhaka - 1216","317820","321984","3000"
+"7","Green field School & College","Plot-3, Block-C, Avenue-2, Mirpur-10, Dhaka 1216","321985","324703","2000"
+"8","Sher-E-Bangla Nagar Govt. Girls' High School","Sher-E-Bangla Nagar, Dhaka -1207","324704","327999","2400"
+"9","Kadamtala Purba Basabo School & College","28/3, Kadamtala, Basabo, Dhaka 1214","328000","332779","3400"
+"10","Sabujbagh Government College","70/3, South Basabo, Sabujbagh, Dhaka 1214","332780","338737","4300"
+"11","Madertek Abdul Aziz School and College","Bashabu, Sabujbagh, Dhaka 1214","338738","342574","2800"
+"12","Dolairpar High School","7, West Dolairpar, Shyampur, Dhaka 1204","342577","345314","2000"
+"13","Faridabad High School","15, Haricharan Ray Road, Faridabad Shyampur, Dhaka-1204","345315","349505","3000"
+"14","Jatrabari Ideal School & College","Jatrabari, Dhaka 1232","349510","353649","3000"
+"15","Demra College","Demra, Dhaka 1360","353650","357791","3000"
+"16","Bawany School & College","Demra, Dhaka 1360","357792","363296","4000"
+"17","Ma Memorial Model Academy","Tengra, Ward -68, DSCC, Post : Sarulia, Demra, Dhaka-1361","363297","366119","2000"
+"18","Hazi Moazzem Ali Adarsha High School","Hazinagar,Sarulia,Demra,Dhaka 1361","366121","369828","2700"
+"19","Shekhdi Abdullah Mollah High School","Shekhdi, Jatrabari, Dhaka-1362","369830","373342","2538"
+"20","Shamsul Hoque Khan School & College, School Campus","Shantibagh, Paradogar, Matuail, Demra, Dhaka 1362","373343","384133","7800"
+"21","Shamsul Hoque Khan School & College, College Campus","Badsha Mia Road, Paradogar, Demra, Dhaka 1362","384134","387057","2100"
+"22","Barnamala Adarsha  School And College","Dania, Jatrabari, Dhaka- 1236","387058","391889","3500"
+"23","A. K. High School & College (Main Campus)","Dania, Dhaka-1236","391891","396275","3200"
+"24","A.K. School & College  (New Campus)","Dania, Dhaka-1236","396278","398783","1800"
+"25","Dr. Mahbubur Rahman Mollah College","Matuail, Jatrabari, Dhaka 1362","398784","410008","8000"
+"26","Dhaka Mohanagar Mohila College","6 No. Subhash Bose Avenue, Laxmi Bazar, Sutrapur, Dhaka 1100","410009","414851","3500"
+"27","Ahmed Bawany Academy School & College","Armanitola, Dhaka-1100","414854","420313","4000"
+"28","Armanitola Govt. High School","1 No Abul Khayrath Road, Dhaka 1100","420314","424147","2800"
+"29","City Corporation Adarsha High School","3/4 Dhalpur, Jatrabari, Dhaka-1203.","424148","427147","2150"
+"30","Central Women’s College","13/2, Abhay Das Lane, Tikatuli, Dhaka 1203","427150","430890","2700"
+"31","Kishori Lal Jubilee School & College","39, North Brook Hall Road, Banglabazar, Dhaka-1100","430894","433603","2000"
+"32","Khilgaon Model College","Block-C, 721/1, Khilgaon Chowrashta, Dhaka 1219","433606","438478","3500"
+"33","Khilgaon Govt. Colony School & College","Plot # 560, 561 , 562,923,924, BIock # C, Khilgaon, Dhaka-1219","438479","441921","2500"
+"34","Kamalapur Sher-E-Bangla Railway School & College","Kamalapur, Dhaka 1217","441922","444680","2000"
+"35","BTCL Ideal School","Moghbazar, Dhaka 1217","444681","448018","2400"
+"36","Motijheel Colony High School","Motijheel, Dhaka","448019","451470","2500"
+"37","Shantibag High School","48, Shantibag, Dhaka 1217","451471","454570","2200"
+"38","Mohammadpur Girls' High School","Noorjahan Road, Mohammadpur, Dhaka-1207","454572","457187","1900"
+"39","Dhanmondi Govt. Boys High School","Dhaka 1207","457188","461298","3000"
+"40","Anwara Begum Muslim Girl's High School & College","13 Nazimuddin Road, Dhaka 1100","461299","464759","2500"
+"41","Begum Rahima Adarsha Balika Uchcha Bidyalaya","27/4-A, Topkhana Road, Segunbagicha, Dhaka-1000","464760","467527","2000"
+"42","University Laboratory School & College","Dhaka University Campus","467529","469561","1500"
